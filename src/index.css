@@ -1,0 +1,35 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-ar: 'Cairo', 'IBM Plex Sans Arabic', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    --font-en: 'Plus Jakarta Sans', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  }
+
+  html {
+    -webkit-tap-highlight-color: transparent;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    min-width: 320px;
+  }
+
+  body {
+    overflow-x: hidden;
+    min-width: 320px;
+  }
+
+  [dir="rtl"] {
+    font-family: var(--font-ar);
+    letter-spacing: normal;
+  }
+
+  [dir="ltr"] {
+    font-family: var(--font-en);
+  }
+
+  /* Medical numeric figures - tabular and crisp */
+  .font-mono {
+    font-feature-settings: "tnum";
+    font-variant-numeric: tabular-nums;
+  }
+}

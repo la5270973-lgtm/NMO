@@ -1,0 +1,6 @@
+{
+  "name": "NMO | نمو — WHO Growth Engine",
+  "description": "Deterministic, auditable WHO Child Growth Standards (2006) and WHO Growth Reference (2007) calculation engine and validation suite founded by Dr. Hasan Abdulzahra Al_Zaidi.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
